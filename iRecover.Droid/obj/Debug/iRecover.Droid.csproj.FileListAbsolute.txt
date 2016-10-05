@@ -72,7 +72,6 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Lo
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Platform.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Platform.Droid.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Core.pdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Core.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
@@ -88,7 +87,9 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\values\s
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\drawable\splash.png
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\R.cs.flag
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\uploadflags.txt
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\contactus.xml
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Core.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Mono.Android.Export.dll.mdb
@@ -118,3 +119,5 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\asse
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll.mdb
