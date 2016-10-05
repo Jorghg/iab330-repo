@@ -71,12 +71,32 @@ containing a value of this type.
         public static final int splash=0x7f020001;
     }
     public static final class id {
+        public static final int HistoryBtn=0x7f040014;
         public static final int MvvmCrossTagId=0x7f040000;
         public static final int MvxBindingTagUnique=0x7f040001;
+        public static final int btnbutton1=0x7f040004;
+        public static final int button2=0x7f040006;
+        public static final int button3=0x7f040008;
+        public static final int claimBtn=0x7f040011;
+        public static final int contactBtn=0x7f040010;
+        public static final int gridLayout1=0x7f040003;
+        public static final int gridLayout2=0x7f040005;
+        public static final int gridLayout3=0x7f040007;
+        public static final int linearLayout1=0x7f040009;
+        public static final int linearLayout2=0x7f04000a;
+        public static final int linearLayout3=0x7f04000e;
+        public static final int linearLayout4=0x7f04000f;
+        public static final int linearLayout5=0x7f040012;
+        public static final int linearLayout6=0x7f04000b;
+        public static final int linearLayout7=0x7f04000c;
+        public static final int mainImage=0x7f04000d;
+        public static final int textView1=0x7f040002;
+        public static final int usageBtn=0x7f040013;
     }
     public static final class layout {
-        public static final int homescreenview=0x7f030000;
-        public static final int splashscreen=0x7f030001;
+        public static final int contactus=0x7f030000;
+        public static final int homescreenview=0x7f030001;
+        public static final int splashscreen=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f060001;
