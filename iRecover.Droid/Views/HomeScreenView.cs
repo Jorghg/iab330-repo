@@ -22,7 +22,7 @@ namespace iRecover.Droid.Views
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.HomeScreenView);
 			ImageView img = FindViewById<ImageView>(Resource.Id.mainImage);
-			img.SetImageResource(Resource.Drawable.Icon);
+			img.SetImageResource(Resource.Drawable.suncorplogo);
 
 			Button ContactkUs = FindViewById<Button>(Resource.Id.contactBtn);
 			//Toast.MakeText(this, ContactkUs.Text, ToastLength.Short).Show();

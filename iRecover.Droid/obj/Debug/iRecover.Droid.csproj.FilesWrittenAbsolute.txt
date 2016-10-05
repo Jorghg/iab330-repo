@@ -6,6 +6,7 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/layout/splashscreen.xml
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/layout/homescreenview.xml
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/layout/contactus.xml
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/drawable/suncorplogo.jpg
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/values/strings.xml
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/drawable/icon.png
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/res/values/splashstyle.xml
