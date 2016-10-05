@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>21/09/2016 15:54:51</xs:documentation>
+    <xs:documentation>5/10/2016 14:31:55</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16761,8 +16761,27 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/btnbutton1" />
+            <xs:enumeration value="@id/button2" />
+            <xs:enumeration value="@id/button3" />
+            <xs:enumeration value="@id/claimBtn" />
+            <xs:enumeration value="@id/contactBtn" />
+            <xs:enumeration value="@id/gridLayout1" />
+            <xs:enumeration value="@id/gridLayout2" />
+            <xs:enumeration value="@id/gridLayout3" />
+            <xs:enumeration value="@id/HistoryBtn" />
+            <xs:enumeration value="@id/linearLayout1" />
+            <xs:enumeration value="@id/linearLayout2" />
+            <xs:enumeration value="@id/linearLayout3" />
+            <xs:enumeration value="@id/linearLayout4" />
+            <xs:enumeration value="@id/linearLayout5" />
+            <xs:enumeration value="@id/linearLayout6" />
+            <xs:enumeration value="@id/linearLayout7" />
+            <xs:enumeration value="@id/mainImage" />
             <xs:enumeration value="@id/MvvmCrossTagId" />
             <xs:enumeration value="@id/MvxBindingTagUnique" />
+            <xs:enumeration value="@id/textView1" />
+            <xs:enumeration value="@id/usageBtn" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
