@@ -75,7 +75,6 @@ containing a value of this type.
         public static final int HistoryBtn=0x7f040014;
         public static final int MvvmCrossTagId=0x7f040000;
         public static final int MvxBindingTagUnique=0x7f040001;
-        public static final int btnbutton1=0x7f040004;
         public static final int button2=0x7f040006;
         public static final int button3=0x7f040008;
         public static final int claimBtn=0x7f040011;
@@ -92,6 +91,7 @@ containing a value of this type.
         public static final int linearLayout7=0x7f04000c;
         public static final int mainImage=0x7f04000d;
         public static final int textView1=0x7f040002;
+        public static final int textView2=0x7f040004;
         public static final int usageBtn=0x7f040013;
     }
     public static final class layout {

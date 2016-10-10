@@ -117,9 +117,6 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040004
-			public const int btnbutton1 = 2130968580;
-			
 			// aapt resource value: 0x7f040006
 			public const int button2 = 2130968582;
 			
@@ -167,6 +164,9 @@ namespace iRecover.Droid
 			
 			// aapt resource value: 0x7f040002
 			public const int textView1 = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int textView2 = 2130968580;
 			
 			// aapt resource value: 0x7f040013
 			public const int usageBtn = 2130968595;

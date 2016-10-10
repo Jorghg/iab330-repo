@@ -25,16 +25,13 @@
         android:layout_height="102.5dp"
         android:id="@+id/gridLayout1"
         tools:visibility="gone" />
-    <Button
-        android:text="Email us"
-        android:layout_width="200.0dp"
-        android:layout_height="80dp"
-        android:id="@+id/btnbutton1"
-        android:drawableTint="#ff009688"
-        android:backgroundTint="#ff00695c"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:textColor="#ffffffff" />
+    <TextView
+        android:text="Email us on this Email address: aaalhayiti@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center" />
     <GridLayout
         android:minWidth="25px"
         android:minHeight="25px"
