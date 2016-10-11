@@ -80,6 +80,7 @@ namespace iRecover.Droid.Views
 
 			button2.Click += (object sender, System.EventArgs e) =>
 			{
+				// make a call to the provider 
 				Android.Net.Uri number = Android.Net.Uri.Parse("tel:" + "0431015184");
 				Intent dialintent = new Intent(Intent.ActionView,number);
 				StartActivity(dialintent);
@@ -89,10 +90,12 @@ namespace iRecover.Droid.Views
 
 			button3.Click += (object sender, System.EventArgs e) =>
 			{
+				// Find us button is to allowed users to find one of Soncorp branches
 				Android.Net.Uri gegoUri = Android.Net.Uri.Parse("geo:27.4705939,153.0301227");
 				Intent mapIntent = new Intent(Intent.ActionView, gegoUri);
 				StartActivity(mapIntent);
-				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+
+				//Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
 			};
 
 		}
@@ -101,7 +104,6 @@ namespace iRecover.Droid.Views
 			SetContentView(Resource.Layout.Contactus);
 			// Get our button from the layout resource,
 			// and attach an event to it
-
 
 		}
 

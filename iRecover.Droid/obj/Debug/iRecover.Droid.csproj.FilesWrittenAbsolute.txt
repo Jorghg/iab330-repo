@@ -25,8 +25,10 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/MvvmCross.Platform.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/MvvmCross.Platform.Droid.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Newtonsoft.Json.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Google.Apis.Core.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Google.Apis.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.dll.mdb
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.pdb
