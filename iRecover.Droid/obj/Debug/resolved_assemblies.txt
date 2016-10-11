@@ -6,6 +6,8 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Core.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Xml.Linq.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Xml.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.IO.Compression.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Net.Http.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Java.Interop.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Runtime.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/MvvmCross.Binding.dll
@@ -16,8 +18,10 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/MvvmCross.Localization.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/MvvmCross.Platform.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/MvvmCross.Platform.Droid.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Google.Apis.Core.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Google.Apis.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/iRecover.Core.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Net.Http.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Threading.dll
@@ -36,3 +40,14 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.IO.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/Mono.CSharp.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Net.Primitives.dll
+/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/obj/Debug/android/assets/System.Reflection.TypeExtensions.dll
