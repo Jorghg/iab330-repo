@@ -7,4 +7,3 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Core/bin/Debug/MvvmCross.Core.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Core/bin/Debug/MvvmCross.Localization.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Core/bin/Debug/MvvmCross.Platform.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Core/bin/Debug/SQLite.Net.dll
