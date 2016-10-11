@@ -2,9 +2,6 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using MvvmCross.Droid.Views;
-using System;
-using Android.Content;
-
 
 namespace iRecover.Droid.Views
 {
@@ -27,9 +24,9 @@ namespace iRecover.Droid.Views
 			ImageView img = FindViewById<ImageView>(Resource.Id.mainImage);
 			img.SetImageResource(Resource.Drawable.suncorplogo);
 
-			Button ContactUs = FindViewById<Button>(Resource.Id.contactBtn);
+			Button ContactkUs = FindViewById<Button>(Resource.Id.contactBtn);
 			//Toast.MakeText(this, ContactkUs.Text, ToastLength.Short).Show();
-			ContactUs.Click += (object sender, System.EventArgs e) =>
+			ContactkUs.Click += (object sender, System.EventArgs e) =>
 			{
 				//Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
 				//ContactUsActivity cta = new ContactUsActivity( savedInstanceState);
@@ -75,23 +72,30 @@ namespace iRecover.Droid.Views
 			SetContentView(Resource.Layout.Contactus);
 			// Get our button from the layout resource,
 			// and attach an event to it
+			Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
+
+			btnbutton1.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+				//SetContentView(Resource.Layout.HomePage);
+			};
 
 			Button button2 = FindViewById<Button>(Resource.Id.button2);
 
 			button2.Click += (object sender, System.EventArgs e) =>
 			{
-				Android.Net.Uri number = Android.Net.Uri.Parse("tel:" + "0431015184");
-				Intent dialintent = new Intent(Intent.ActionView,number);
-				StartActivity(dialintent);
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
 			};
+
+
+
+
 
 			Button button3 = FindViewById<Button>(Resource.Id.button3);
 
 			button3.Click += (object sender, System.EventArgs e) =>
 			{
-				Android.Net.Uri gegoUri = Android.Net.Uri.Parse("geo:27.4705939,153.0301227");
-				Intent mapIntent = new Intent(Intent.ActionView, gegoUri);
-				StartActivity(mapIntent);
+
 				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
 			};
 
@@ -101,7 +105,27 @@ namespace iRecover.Droid.Views
 			SetContentView(Resource.Layout.Contactus);
 			// Get our button from the layout resource,
 			// and attach an event to it
+			Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
 
+			btnbutton1.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+				//SetContentView(Resource.Layout.HomePage);
+			};
+
+			Button button2 = FindViewById<Button>(Resource.Id.button2);
+
+			button2.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
+			};
+
+			Button button3 = FindViewById<Button>(Resource.Id.button3);
+
+			button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
 
 		}
 
@@ -110,13 +134,57 @@ namespace iRecover.Droid.Views
 		SetContentView(Resource.Layout.Contactus);
 		 //Get our button from the layout resource,
 		 //and attach an event to it
+		Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
+
+		btnbutton1.Click += (object sender, System.EventArgs e) =>
+	{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+		//SetContentView(Resource.Layout.HomePage);
+			};
+
+			Button button2 = FindViewById<Button>(Resource.Id.button2);
+
+			button2.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
+			};
+
+			Button button3 = FindViewById<Button>(Resource.Id.button3);
+
+			button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
 
 		}
 
 		private void History()
 		{
 			SetContentView(Resource.Layout.Contactus);
-		 
+		 //Get our button from the layout resource,
+		 //and attach an event to it
+			Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
+
+			btnbutton1.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+		//SetContentView(Resource.Layout.HomePage);
+			};
+
+			Button button2 = FindViewById<Button>(Resource.Id.button2);
+
+			button2.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
+			};
+
+			Button button3 = FindViewById<Button>(Resource.Id.button3);
+
+		//	button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
+
 		}
 	}
 

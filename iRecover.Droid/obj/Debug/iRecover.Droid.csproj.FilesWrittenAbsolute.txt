@@ -24,9 +24,6 @@
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/MvvmCross.Localization.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/MvvmCross.Platform.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/MvvmCross.Platform.Droid.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Newtonsoft.Json.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Google.Apis.Core.dll
-/Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/Google.Apis.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.dll
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.dll.mdb
 /Users/ahmedalhayiti/iab330-repo/iRecover.Droid/bin/Debug/iRecover.Core.pdb
