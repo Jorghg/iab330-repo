@@ -120,5 +120,7 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\asse
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\toolbaraxml.xml
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\values\styles.xml
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll.mdb

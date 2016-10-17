@@ -108,8 +108,8 @@ namespace iRecover.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040014
-			public const int HistoryBtn = 2130968596;
+			// aapt resource value: 0x7f040015
+			public const int HistoryBtn = 2130968597;
 			
 			// aapt resource value: 0x7f040000
 			public const int MvvmCrossTagId = 2130968576;
@@ -126,11 +126,11 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f040008
 			public const int button3 = 2130968584;
 			
-			// aapt resource value: 0x7f040011
-			public const int claimBtn = 2130968593;
+			// aapt resource value: 0x7f040012
+			public const int claimBtn = 2130968594;
 			
-			// aapt resource value: 0x7f040010
-			public const int contactBtn = 2130968592;
+			// aapt resource value: 0x7f040011
+			public const int contactBtn = 2130968593;
 			
 			// aapt resource value: 0x7f040003
 			public const int gridLayout1 = 2130968579;
@@ -144,32 +144,35 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f040009
 			public const int linearLayout1 = 2130968585;
 			
-			// aapt resource value: 0x7f04000a
-			public const int linearLayout2 = 2130968586;
-			
-			// aapt resource value: 0x7f04000e
-			public const int linearLayout3 = 2130968590;
+			// aapt resource value: 0x7f04000b
+			public const int linearLayout2 = 2130968587;
 			
 			// aapt resource value: 0x7f04000f
-			public const int linearLayout4 = 2130968591;
+			public const int linearLayout3 = 2130968591;
 			
-			// aapt resource value: 0x7f040012
-			public const int linearLayout5 = 2130968594;
+			// aapt resource value: 0x7f040010
+			public const int linearLayout4 = 2130968592;
 			
-			// aapt resource value: 0x7f04000b
-			public const int linearLayout6 = 2130968587;
+			// aapt resource value: 0x7f040013
+			public const int linearLayout5 = 2130968595;
 			
 			// aapt resource value: 0x7f04000c
-			public const int linearLayout7 = 2130968588;
+			public const int linearLayout6 = 2130968588;
 			
 			// aapt resource value: 0x7f04000d
-			public const int mainImage = 2130968589;
+			public const int linearLayout7 = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public const int mainImage = 2130968590;
 			
 			// aapt resource value: 0x7f040002
 			public const int textView1 = 2130968578;
 			
-			// aapt resource value: 0x7f040013
-			public const int usageBtn = 2130968595;
+			// aapt resource value: 0x7f04000a
+			public const int toolbar = 2130968586;
+			
+			// aapt resource value: 0x7f040014
+			public const int usageBtn = 2130968596;
 			
 			static Id()
 			{
@@ -192,6 +195,9 @@ namespace iRecover.Droid
 			
 			// aapt resource value: 0x7f030002
 			public const int SplashScreen = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Toolbaraxml = 2130903043;
 			
 			static Layout()
 			{
@@ -224,6 +230,9 @@ namespace iRecover.Droid
 		
 		public partial class Style
 		{
+			
+			// aapt resource value: 0x7f050001
+			public const int MyTheme = 2131034113;
 			
 			// aapt resource value: 0x7f050000
 			public const int Theme_Splash = 2131034112;
