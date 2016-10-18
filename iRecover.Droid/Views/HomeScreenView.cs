@@ -20,13 +20,11 @@ namespace iRecover.Droid.Views
 		{
             //Add a new topToolbar 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-    
-            //Check to see if compile.. 
             SetActionBar(toolbar);
             ActionBar.Title = "My Toolbar";
-           
+
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.HomeScreenView);
+            SetContentView(Resource.Layout.HomeScreen);
 			ImageView img = FindViewById<ImageView>(Resource.Id.mainImage);
 			img.SetImageResource(Resource.Drawable.suncorplogo);
 
@@ -190,9 +188,6 @@ namespace iRecover.Droid.Views
 			{
 				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
 			};
-
 		}
 	}
-
-
 }

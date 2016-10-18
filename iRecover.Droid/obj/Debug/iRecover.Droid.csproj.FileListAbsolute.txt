@@ -58,7 +58,6 @@ C:\Users\gramstad\Documents\Visual Studio 2015\Projects\iRecoverApp\iRecover.Dro
 C:\Users\gramstad\Documents\Visual Studio 2015\Projects\iRecoverApp\iRecover.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\gramstad\Documents\Visual Studio 2015\Projects\iRecoverApp\iRecover.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\gramstad\Documents\Visual Studio 2015\Projects\iRecoverApp\iRecover.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.csprojResolveAssemblyReference.cache
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.pdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.iRecover.Droid.apk
@@ -76,10 +75,10 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Cor
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.csprojResolveAssemblyReference.cache
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.pdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\bin\iRecover.Droid.iRecover.Droid.apk
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\homescreenview.xml
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\contactus.xml
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\drawable\suncorplogo.jpg
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\splashscreen.xml
@@ -93,6 +92,7 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\R.cs.flag
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\uploadflags.txt
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Core.dll.mdb
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\homescreen.xml
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\Mono.Android.Export.dll.mdb

@@ -97,7 +97,7 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int contactus=0x7f030000;
-        public static final int homescreenview=0x7f030001;
+        public static final int homescreen=0x7f030001;
         public static final int splashscreen=0x7f030002;
         public static final int toolbar=0x7f030003;
     }
