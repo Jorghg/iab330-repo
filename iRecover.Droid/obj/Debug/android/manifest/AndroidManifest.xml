@@ -26,4 +26,5 @@
       </intent-filter>
     </receiver>
   </application>
+  <application android:label="Toolbar" android:theme="@style/MyTheme"></application>
 </manifest>

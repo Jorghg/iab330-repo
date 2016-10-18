@@ -19,8 +19,11 @@ namespace iRecover.Droid.Views
 		private void homePage()
 		{
 
-			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.HomeScreenView);
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            //SetActionBar (toolbar);
+            //ActionBar.Title = "My Toolbar";
+            // Set our view from the "main" layout resource
+            SetContentView(Resource.Layout.HomeScreen);
 			ImageView img = FindViewById<ImageView>(Resource.Id.mainImage);
 			img.SetImageResource(Resource.Drawable.suncorplogo);
 

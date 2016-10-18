@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:background="#ff5dc1aa">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="334.5dp"
+        android:id="@+id/linearLayout2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="98.5dp"
+            android:id="@+id/linearLayout6" />
+        <TextView
+            android:text="iRecover"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="92.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#ff0c0707" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dp"
+            android:id="@+id/linearLayout7" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="103.0dp"
+            android:id="@+id/mainImage" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="186.0dp"
+        android:id="@+id/linearLayout3">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="96.0dp"
+            android:id="@+id/linearLayout4">
+            <Button
+                android:text="Contact Us"
+                android:layout_width="190.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/contactBtn"
+                android:backgroundTint="#ff00695c"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+            <Button
+                android:text="Make a Claim"
+                android:layout_width="190.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/claimBtn"
+                android:backgroundTint="#ff00695c"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="86.5dp"
+            android:id="@+id/linearLayout5">
+            <Button
+                android:text="My Usage"
+                android:layout_width="190.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/usageBtn"
+                android:backgroundTint="#ff00695c"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+            <Button
+                android:text="History"
+                android:layout_width="190.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/HistoryBtn"
+                android:backgroundTint="#ff00695c"
+                android:textStyle="bold"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
