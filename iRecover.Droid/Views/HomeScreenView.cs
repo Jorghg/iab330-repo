@@ -20,8 +20,11 @@ namespace iRecover.Droid.Views
 		{
             //Add a new topToolbar 
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+    
+            //Check to see if compile.. 
             SetActionBar(toolbar);
             ActionBar.Title = "My Toolbar";
+           
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.HomeScreenView);
 			ImageView img = FindViewById<ImageView>(Resource.Id.mainImage);
