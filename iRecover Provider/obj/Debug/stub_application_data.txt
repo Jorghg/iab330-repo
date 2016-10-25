@@ -1,2 +1,0 @@
-android.app.Application
-iRecover_Provider.iRecover_Provider
