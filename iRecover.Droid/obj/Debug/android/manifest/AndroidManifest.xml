@@ -20,14 +20,14 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="ContactUsPage" android:name="md515a7463932a86344a182d2db87e4fe2a.ContactUsPage" />
+    <activity android:label="MakeClaimPage" android:name="md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage" />
     <activity android:icon="@drawable/icon" android:label="iRecover" android:name="md55bb7c99105548f62e07fc1e4645373af.HomeScreenView">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="ContactUsPage" android:name="md515a7463932a86344a182d2db87e4fe2a.ContactUsPage" />
-    <activity android:label="MakeClaimPage" android:name="md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Suncorp.iRecover.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

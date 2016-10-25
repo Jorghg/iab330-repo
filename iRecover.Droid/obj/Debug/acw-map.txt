@@ -2,10 +2,6 @@ iRecover.Droid.SplashScreen, iRecover.Droid;md515a7463932a86344a182d2db87e4fe2a.
 iRecover.Droid.SplashScreen, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515a7463932a86344a182d2db87e4fe2a.SplashScreen
 iRecover.Droid.SplashScreen;md515a7463932a86344a182d2db87e4fe2a.SplashScreen
 irecover.droid.SplashScreen;md515a7463932a86344a182d2db87e4fe2a.SplashScreen
-iRecover.Droid.Views.HomeScreenView, iRecover.Droid;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
-iRecover.Droid.Views.HomeScreenView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
-iRecover.Droid.Views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
-irecover.droid.views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 iRecover.Droid.ContactUsPage, iRecover.Droid;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
 iRecover.Droid.ContactUsPage, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
 iRecover.Droid.ContactUsPage;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
@@ -14,6 +10,10 @@ iRecover.Droid.MakeClaimPage, iRecover.Droid;md515a7463932a86344a182d2db87e4fe2a
 iRecover.Droid.MakeClaimPage, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
 iRecover.Droid.MakeClaimPage;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
 irecover.droid.MakeClaimPage;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
+iRecover.Droid.Views.HomeScreenView, iRecover.Droid;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
+iRecover.Droid.Views.HomeScreenView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
+iRecover.Droid.Views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
+irecover.droid.views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
@@ -230,6 +230,10 @@ Android.Support.V4.Widget.SlidingPaneLayout/IPanelSlideListenerImplementor, Xama
 Android.Support.V4.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 Android.Support.V4.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor;mono.android.support.v4.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+Android.Gms.Common.Images.ImageManager/IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
 Android.Gms.Common.Apis.ResultCallback`1;md531f8cc8d4d39b2fa02686ee0eb368905.ResultCallback_1
@@ -254,10 +258,6 @@ Android.Gms.Security.ProviderInstaller/IProviderInstallListenerImplementor, Xama
 Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
 Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
 mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
-Android.Gms.Common.Images.ImageManager/IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
-Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
-Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
-mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
 Android.Gms.Maps.GoogleMap/IOnCameraChangeListenerImplementor, Xamarin.GooglePlayServices.Maps;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
 Android.Gms.Maps.GoogleMap+IOnCameraChangeListenerImplementor, Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
 Android.Gms.Maps.GoogleMap.IOnCameraChangeListenerImplementor;mono.com.google.android.gms.maps.GoogleMap_OnCameraChangeListenerImplementor
