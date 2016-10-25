@@ -18,7 +18,3 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\SQLite.Net.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
