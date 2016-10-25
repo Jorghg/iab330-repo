@@ -196,5 +196,6 @@ C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\S
 C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\res\layout\firstview.xml
 C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\obj\Debug\iRecover.Droid.dll.mdb
 C:\Users\Mich\Source\Repos\iab330-repo\iRecover.Droid\bin\Debug\iRecover.Droid.dll.mdb

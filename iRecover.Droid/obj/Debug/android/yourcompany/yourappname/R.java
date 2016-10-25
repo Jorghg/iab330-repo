@@ -409,10 +409,11 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int contactus=0x7f030000;
-        public static final int homescreenview=0x7f030001;
-        public static final int providerinfo=0x7f030002;
-        public static final int searchprovider=0x7f030003;
-        public static final int splashscreen=0x7f030004;
+        public static final int firstview=0x7f030001;
+        public static final int homescreenview=0x7f030002;
+        public static final int providerinfo=0x7f030003;
+        public static final int searchprovider=0x7f030004;
+        public static final int splashscreen=0x7f030005;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040020;

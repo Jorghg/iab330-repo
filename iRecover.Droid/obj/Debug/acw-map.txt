@@ -6,6 +6,10 @@ iRecover.Droid.Views.ContactUsView, iRecover.Droid;md55bb7c99105548f62e07fc1e464
 iRecover.Droid.Views.ContactUsView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.ContactUsView
 iRecover.Droid.Views.ContactUsView;md55bb7c99105548f62e07fc1e4645373af.ContactUsView
 irecover.droid.views.ContactUsView;md55bb7c99105548f62e07fc1e4645373af.ContactUsView
+iRecover.Droid.Views.FirstView, iRecover.Droid;md55bb7c99105548f62e07fc1e4645373af.FirstView
+iRecover.Droid.Views.FirstView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.FirstView
+iRecover.Droid.Views.FirstView;md55bb7c99105548f62e07fc1e4645373af.FirstView
+irecover.droid.views.FirstView;md55bb7c99105548f62e07fc1e4645373af.FirstView
 iRecover.Droid.Views.HomeScreenView, iRecover.Droid;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 iRecover.Droid.Views.HomeScreenView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 iRecover.Droid.Views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
