@@ -1,2 +1,2 @@
 android.app.Application
-iRecover.Droid.iRecover.Droid
+YourCompany.YourAppName
