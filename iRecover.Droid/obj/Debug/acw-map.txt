@@ -6,6 +6,14 @@ iRecover.Droid.Views.HomeScreenView, iRecover.Droid;md55bb7c99105548f62e07fc1e46
 iRecover.Droid.Views.HomeScreenView, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 iRecover.Droid.Views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
 irecover.droid.views.HomeScreenView;md55bb7c99105548f62e07fc1e4645373af.HomeScreenView
+iRecover.Droid.ContactUsPage, iRecover.Droid;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
+iRecover.Droid.ContactUsPage, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
+iRecover.Droid.ContactUsPage;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
+irecover.droid.ContactUsPage;md515a7463932a86344a182d2db87e4fe2a.ContactUsPage
+iRecover.Droid.MakeClaimPage, iRecover.Droid;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
+iRecover.Droid.MakeClaimPage, iRecover.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
+iRecover.Droid.MakeClaimPage;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
+irecover.droid.MakeClaimPage;md515a7463932a86344a182d2db87e4fe2a.MakeClaimPage
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView, MvvmCross.Binding.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView
 MvvmCross.Binding.Droid.Views.MvxBaseListItemView;md5bf0126c95bf9fc0db24c02c9adb4cfa7.MvxBaseListItemView

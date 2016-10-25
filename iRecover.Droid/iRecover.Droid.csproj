@@ -108,6 +108,8 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\HomeScreenView.cs" />
+    <Compile Include="Views\ContactUsPage.cs" />
+    <Compile Include="Views\MakeClaimPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -118,6 +120,8 @@
     <AndroidResource Include="Resources\layout\HomeScreenView.axml" />
     <AndroidResource Include="Resources\layout\Contactus.axml" />
     <AndroidResource Include="Resources\drawable\suncorplogo.jpg" />
+    <AndroidResource Include="Resources\layout\MakeClaim.axml" />
+    <AndroidResource Include="Resources\layout\Submit.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

@@ -360,6 +360,7 @@ containing a value of this type.
         public static int adjust_height=0x7f07000d;
         public static int adjust_width=0x7f07000e;
         public static int auto=0x7f07000a;
+        public static int button1=0x7f070011;
         public static int button2=0x7f070013;
         public static int button3=0x7f070015;
         public static int claimBtn=0x7f07001e;
@@ -370,6 +371,7 @@ containing a value of this type.
         public static int gridLayout3=0x7f070014;
         public static int hybrid=0x7f070002;
         public static int icon_only=0x7f070007;
+        public static int imageView1=0x7f070022;
         public static int light=0x7f07000c;
         public static int linearLayout1=0x7f070016;
         public static int linearLayout2=0x7f070017;
@@ -385,7 +387,6 @@ containing a value of this type.
         public static int standard=0x7f070008;
         public static int terrain=0x7f070006;
         public static int textView1=0x7f07000f;
-        public static int textView2=0x7f070011;
         public static int usageBtn=0x7f070020;
         public static int wide=0x7f070009;
     }
@@ -395,7 +396,9 @@ containing a value of this type.
     public static final class layout {
         public static int contactus=0x7f030000;
         public static int homescreenview=0x7f030001;
-        public static int splashscreen=0x7f030002;
+        public static int makeclaim=0x7f030002;
+        public static int splashscreen=0x7f030003;
+        public static int submit=0x7f030004;
     }
     public static final class string {
         public static int ApplicationName=0x7f050020;

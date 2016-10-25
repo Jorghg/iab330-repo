@@ -397,6 +397,9 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000a
 			public const int auto = 2131165194;
 			
+			// aapt resource value: 0x7f070011
+			public const int button1 = 2131165201;
+			
 			// aapt resource value: 0x7f070013
 			public const int button2 = 2131165203;
 			
@@ -426,6 +429,9 @@ namespace iRecover.Droid
 			
 			// aapt resource value: 0x7f070007
 			public const int icon_only = 2131165191;
+			
+			// aapt resource value: 0x7f070022
+			public const int imageView1 = 2131165218;
 			
 			// aapt resource value: 0x7f07000c
 			public const int light = 2131165196;
@@ -472,9 +478,6 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000f
 			public const int textView1 = 2131165199;
 			
-			// aapt resource value: 0x7f070011
-			public const int textView2 = 2131165201;
-			
 			// aapt resource value: 0x7f070020
 			public const int usageBtn = 2131165216;
 			
@@ -517,7 +520,13 @@ namespace iRecover.Droid
 			public const int HomeScreenView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int MakeClaim = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SplashScreen = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Submit = 2130903044;
 			
 			static Layout()
 			{
