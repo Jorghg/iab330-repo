@@ -2,7 +2,7 @@ package md55bb7c99105548f62e07fc1e4645373af;
 
 
 public class HomeScreenView
-	extends md5c293e307133ee8f46151deed2480c6a8.MvxActivity
+	extends mvvmcross.droid.views.MvxActivity
 	implements
 		mono.android.IGCUserPeer,
 		com.google.android.gms.maps.OnMapReadyCallback

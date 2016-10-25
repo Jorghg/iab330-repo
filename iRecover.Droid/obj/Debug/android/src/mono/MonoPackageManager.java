@@ -109,11 +109,6 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Localization.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
-		"Newtonsoft.Json.dll",
-		"Xamarin.Android.Support.v4.dll",
-		"Xamarin.GooglePlayServices.Base.dll",
-		"Xamarin.GooglePlayServices.Basement.dll",
-		"Xamarin.GooglePlayServices.Maps.dll",
 		"System.Runtime.dll",
 		"System.Resources.ResourceManager.dll",
 		"System.Linq.Expressions.dll",
@@ -130,13 +125,6 @@ class MonoPackageManager_Resources {
 		"System.Globalization.dll",
 		"System.Threading.Tasks.dll",
 		"System.IO.dll",
-		"System.Xml.XDocument.dll",
-		"System.Runtime.Serialization.Primitives.dll",
-		"System.Dynamic.Runtime.dll",
-		"System.Text.RegularExpressions.dll",
-		"System.Xml.ReaderWriter.dll",
-		"System.Text.Encoding.dll",
-		"System.Text.Encoding.Extensions.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
