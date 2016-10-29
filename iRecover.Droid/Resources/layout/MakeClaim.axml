@@ -23,8 +23,7 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="102.5dp"
-        android:id="@+id/gridLayout1"
-        tools:visibility="gone" />
+        android:id="@+id/gridLayout1" />
     <GridLayout
         android:minWidth="25px"
         android:minHeight="25px"

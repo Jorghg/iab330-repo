@@ -13,51 +13,52 @@ using Uri = Android.Net.Uri;
 
 namespace iRecover.Droid
 {
-	[Activity(Label = "MakeClaimPage")]
-	public class MakeClaimPage : MvxActivity
-	{
-		protected override void OnCreate(Bundle savedInstanceState)
-		{
-			base.OnCreate(savedInstanceState);
-			makeClaimPage();
-			// Create your application here
-		}
+    [Activity(Label = "MakeClaimPage")]
+    public class MakeClaimPage : MvxActivity
+    {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            makeClaimPage();
+            // Create your application here
+        }
 
-		private void CreateDirectoryForPictures()
-		{
-			App._dir = new File(
-				Android.OS.Environment.GetExternalStoragePublicDirectory(
-					Android.OS.Environment.DirectoryPictures), "CameraAppDemo");
-			if (!App._dir.Exists())
-			{
-				App._dir.Mkdirs();
-			}
-		}
+        private void CreateDirectoryForPictures()
+        {
+            App._dir = new File(
+                Android.OS.Environment.GetExternalStoragePublicDirectory(
+                    Android.OS.Environment.DirectoryPictures), "CameraAppDemo");
+            if (!App._dir.Exists())
+            {
+                App._dir.Mkdirs();
+            }
+        }
 
-		public static readonly int PickImageId = 1000;
-	
+        public static readonly int PickImageId = 1000;
 
-		public void makeClaimPage()
-		{
-			SetContentView(Resource.Layout.MakeClaim);
-			// Get our button from the layout resource,
-			// and attach an event to it
-			CreateDirectoryForPictures();
-			Button button1 = FindViewById<Button>(Resource.Id.button1);
 
-			button1.Click += TakeAPicture;
+        public void makeClaimPage()
+        {
+            SetContentView(Resource.Layout.MakeClaim);
+            // Get our button from the layout resource,
+            // and attach an event to it
+            CreateDirectoryForPictures();
+            Button button1 = FindViewById<Button>(Resource.Id.button1);
 
-			Button button2 = FindViewById<Button>(Resource.Id.button2);
+            button1.Click += TakeAPicture;
 
-			button2.Click += (object sender, System.EventArgs e) =>
-			{
-				Intent = new Intent();
-				Intent.SetType("image/*");
-				Intent.SetAction(Intent.ActionGetContent);
-				StartActivityForResult(Intent.CreateChooser(Intent, "Select Pickture"), PickImageId);
-			};
+            Button button2 = FindViewById<Button>(Resource.Id.button2);
 
-		}
+            button2.Click += (object sender, System.EventArgs e) =>
+            {
+                Intent = new Intent();
+                Intent.SetType("image/*");
+                Intent.SetAction(Intent.ActionGetContent);
+                StartActivityForResult(Intent.CreateChooser(Intent, "Select Pickture"), PickImageId);
+            };
+
+        }
+        /*
 		private void claimPage(Android.Net.Uri inputImageUri)
 		{
 			SetContentView(Resource.Layout.Submit);
@@ -72,24 +73,25 @@ namespace iRecover.Droid
 
 
 		}
+        */
 
-		private bool IsThereAnAppToTakePictures()
-		{
-			Intent intent = new Intent(MediaStore.ActionImageCapture);
-			IList<ResolveInfo> availableActivities =
-				PackageManager.QueryIntentActivities(intent, PackageInfoFlags.MatchDefaultOnly);
-			return availableActivities != null && availableActivities.Count > 0;
-		}
-		private void TakeAPicture(object sender, EventArgs eventArgs)
-		{
-			Intent intent = new Intent(MediaStore.ActionImageCapture);
-			App._file = new File(App._dir, String.Format("myPhoto_{0}.jpg", Guid.NewGuid()));
-			intent.PutExtra(MediaStore.ExtraOutput, Android.Net.Uri.FromFile(App._file));
-			StartActivityForResult(intent, 0);
-		}
+        private bool IsThereAnAppToTakePictures()
+        {
+            Intent intent = new Intent(MediaStore.ActionImageCapture);
+            IList<ResolveInfo> availableActivities =
+                PackageManager.QueryIntentActivities(intent, PackageInfoFlags.MatchDefaultOnly);
+            return availableActivities != null && availableActivities.Count > 0;
+        }
+        private void TakeAPicture(object sender, EventArgs eventArgs)
+        {
+            Intent intent = new Intent(MediaStore.ActionImageCapture);
+            App._file = new File(App._dir, String.Format("myPhoto_{0}.jpg", Guid.NewGuid()));
+            intent.PutExtra(MediaStore.ExtraOutput, Android.Net.Uri.FromFile(App._file));
+            StartActivityForResult(intent, 0);
+        }
 
 
-
+        /*
 		private ImageView _imageView;
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
 		{
@@ -127,42 +129,44 @@ namespace iRecover.Droid
 		}
 
 	}
+    */
+        public static class App
+        {
+            public static File _file;
+            public static File _dir;
+            public static Bitmap bitmap;
+        }
+      /*  public static class BitmapHelpers
+        {
+            public static Bitmap LoadAndResizeBitmap(this string fileName, int width, int height)
+            {
+                // First we get the the dimensions of the file on disk
+                BitmapFactory.Options options = new BitmapFactory.Options { InJustDecodeBounds = true };
+                BitmapFactory.DecodeFile(fileName, options);
 
-	public static class App
-	{
-		public static File _file;
-		public static File _dir;
-		public static Bitmap bitmap;
-	}
-	public static class BitmapHelpers
-	{
-		public static Bitmap LoadAndResizeBitmap(this string fileName, int width, int height)
-		{
-			// First we get the the dimensions of the file on disk
-			BitmapFactory.Options options = new BitmapFactory.Options { InJustDecodeBounds = true };
-			BitmapFactory.DecodeFile(fileName, options);
+                // Next we calculate the ratio that we need to resize the image by
+                // in order to fit the requested dimensions.
+                int outHeight = options.OutHeight;
+                int outWidth = options.OutWidth;
+                int inSampleSize = 1;
 
-			// Next we calculate the ratio that we need to resize the image by
-			// in order to fit the requested dimensions.
-			int outHeight = options.OutHeight;
-			int outWidth = options.OutWidth;
-			int inSampleSize = 1;
+                if (outHeight > height || outWidth > width)
+                {
+                    inSampleSize = outWidth > outHeight
+                                       ? outHeight / height
+                                       : outWidth / width;
+                }
 
-			if (outHeight > height || outWidth > width)
-			{
-				inSampleSize = outWidth > outHeight
-								   ? outHeight / height
-								   : outWidth / width;
-			}
+                // Now we will load the image and have BitmapFactory resize it for us.
+                options.InSampleSize = inSampleSize;
+                options.InJustDecodeBounds = false;
+                Bitmap resizedBitmap = BitmapFactory.DecodeFile(fileName, options);
 
-			// Now we will load the image and have BitmapFactory resize it for us.
-			options.InSampleSize = inSampleSize;
-			options.InJustDecodeBounds = false;
-			Bitmap resizedBitmap = BitmapFactory.DecodeFile(fileName, options);
-
-			return resizedBitmap;
-		}
-	}
+                return resizedBitmap;
+            }
+        }
+        */
 
 
+    }
 }
