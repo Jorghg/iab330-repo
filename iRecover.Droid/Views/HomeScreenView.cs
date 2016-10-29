@@ -75,6 +75,10 @@ namespace iRecover.Droid.Views
 		{
 				homePage();
 		}
+			button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
 
 
 		private void MyUsage()
@@ -82,13 +86,57 @@ namespace iRecover.Droid.Views
 				SetContentView(Resource.Layout.Contactus);
 		 //Get our button from the layout resource,
 		 //and attach an event to it
+		Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
+
+		btnbutton1.Click += (object sender, System.EventArgs e) =>
+	{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+		//SetContentView(Resource.Layout.HomePage);
+			};
+
+			Button button2 = FindViewById<Button>(Resource.Id.button2);
+
+			button2.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
+			};
+
+			Button button3 = FindViewById<Button>(Resource.Id.button3);
+
+			button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
 
 		}
 
 		private void History()
 		{
 			SetContentView(Resource.Layout.Contactus);
-		 
+		 //Get our button from the layout resource,
+		 //and attach an event to it
+			Button btnbutton1 = FindViewById<Button>(Resource.Id.btnbutton1);
+
+			btnbutton1.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+		//SetContentView(Resource.Layout.HomePage);
+			};
+
+			Button button2 = FindViewById<Button>(Resource.Id.button2);
+
+			button2.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Call us Function allws users to Contact their provider directlly", ToastLength.Short).Show();
+			};
+
+			Button button3 = FindViewById<Button>(Resource.Id.button3);
+
+		//	button3.Click += (object sender, System.EventArgs e) =>
+			{
+				Toast.MakeText(this, "Find us Function allws users to find the Location of their provider", ToastLength.Short).Show();
+			};
+
 		}
 	}
 
