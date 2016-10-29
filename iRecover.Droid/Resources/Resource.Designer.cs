@@ -413,32 +413,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000c
 			public const int auto = 2131165196;
 			
-			// aapt resource value: 0x7f07002a
-			public const int btnCall = 2131165226;
-			
-			// aapt resource value: 0x7f07002d
-			public const int btnDirections = 2131165229;
-			
-			// aapt resource value: 0x7f07002b
-			public const int btnEmail = 2131165227;
-			
-			// aapt resource value: 0x7f070026
-			public const int btnHybrid = 2131165222;
-			
-			// aapt resource value: 0x7f070025
-			public const int btnNormal = 2131165221;
-			
-			// aapt resource value: 0x7f070027
-			public const int btnSatellite = 2131165223;
-			
-			// aapt resource value: 0x7f070028
-			public const int btnTerrain = 2131165224;
-			
-			// aapt resource value: 0x7f07002c
-			public const int btnWebsite = 2131165228;
-			
 			// aapt resource value: 0x7f070011
-			public const int btnbutton1 = 2131165201;
+			public const int button1 = 2131165201;
 			
 			// aapt resource value: 0x7f070013
 			public const int button2 = 2131165203;
@@ -476,20 +452,20 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070009
 			public const int icon_only = 2131165193;
 			
+			// aapt resource value: 0x7f070022
+			public const int imageView1 = 2131165218;
+			
 			// aapt resource value: 0x7f07000e
 			public const int light = 2131165198;
 			
-			// aapt resource value: 0x7f070018
-			public const int linearLayout1 = 2131165208;
-			
-			// aapt resource value: 0x7f070019
-			public const int linearLayout2 = 2131165209;
+			// aapt resource value: 0x7f070016
+			public const int linearLayout1 = 2131165206;
 			
 			// aapt resource value: 0x7f07001d
 			public const int linearLayout3 = 2131165213;
 			
-			// aapt resource value: 0x7f07001e
-			public const int linearLayout4 = 2131165214;
+			// aapt resource value: 0x7f07001b
+			public const int linearLayout3 = 2131165211;
 			
 			// aapt resource value: 0x7f070021
 			public const int linearLayout5 = 2131165217;
@@ -515,8 +491,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070005
 			public const int satellite = 2131165189;
 			
-			// aapt resource value: 0x7f07002e
-			public const int spinner = 2131165230;
+			// aapt resource value: 0x7f07000a
+			public const int standard = 2131165194;
 			
 			// aapt resource value: 0x7f07000a
 			public const int standard = 2131165194;
@@ -527,11 +503,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000f
 			public const int textView1 = 2131165199;
 			
-			// aapt resource value: 0x7f070029
-			public const int textView2 = 2131165225;
-			
-			// aapt resource value: 0x7f070022
-			public const int usageBtn = 2131165218;
+			// aapt resource value: 0x7f070020
+			public const int usageBtn = 2131165216;
 			
 			// aapt resource value: 0x7f07000b
 			public const int wide = 2131165195;
@@ -572,13 +545,13 @@ namespace iRecover.Droid
 			public const int HomeScreenView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ProviderInfo = 2130903042;
+			public const int MakeClaim = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int SearchProvider = 2130903043;
+			public const int SplashScreen = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SplashScreen = 2130903044;
+			public const int Submit = 2130903044;
 			
 			static Layout()
 			{
@@ -650,14 +623,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f04001b
 			public const int common_google_play_services_restricted_profile_title = 2130968603;
 			
-			// aapt resource value: 0x7f04001a
-			public const int common_google_play_services_sign_in_failed_text = 2130968602;
-			
-			// aapt resource value: 0x7f040019
-			public const int common_google_play_services_sign_in_failed_title = 2130968601;
-			
-			// aapt resource value: 0x7f040002
-			public const int common_google_play_services_unknown_issue = 2130968578;
+			// aapt resource value: 0x7f050017
+			public const int common_google_play_services_sign_in_failed_text = 2131034135;
 			
 			// aapt resource value: 0x7f040015
 			public const int common_google_play_services_unsupported_text = 2130968597;

@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff1bbe94">
+    android:background="#ff74e0c5">
     <TextView
         android:text="  Contact us"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -26,11 +26,10 @@
         android:id="@+id/gridLayout1"
         tools:visibility="gone" />
     <Button
-        android:text="Email us"
+        android:text="Send Mail"
         android:layout_width="200.0dp"
         android:layout_height="80dp"
-        android:id="@+id/btnbutton1"
-        android:drawableTint="#ff009688"
+        android:id="@+id/button1"
         android:backgroundTint="#ff00695c"
         android:textStyle="bold"
         android:layout_gravity="center"
