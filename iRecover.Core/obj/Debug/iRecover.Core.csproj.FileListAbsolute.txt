@@ -16,9 +16,3 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\MvvmCross.Pla
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.csprojResolveAssemblyReference.cache
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.pdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll.mdb
-C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\iRecover.Core.dll.mdb
