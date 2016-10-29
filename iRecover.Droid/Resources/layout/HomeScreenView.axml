@@ -39,6 +39,7 @@
             p1:src="@android:drawable/ic_menu_gallery"
             p1:layout_width="match_parent"
             p1:layout_height="103.0dp"
+            p1:alpha="0.3"
             p1:id="@+id/mainImage" />
     </LinearLayout>
     <LinearLayout
