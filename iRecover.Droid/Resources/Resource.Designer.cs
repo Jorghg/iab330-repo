@@ -413,14 +413,14 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000c
 			public const int auto = 2131165196;
 			
-			// aapt resource value: 0x7f070029
-			public const int btnCall = 2131165225;
-			
-			// aapt resource value: 0x7f07002c
-			public const int btnDirections = 2131165228;
-			
 			// aapt resource value: 0x7f07002a
-			public const int btnEmail = 2131165226;
+			public const int btnCall = 2131165226;
+			
+			// aapt resource value: 0x7f07002d
+			public const int btnDirections = 2131165229;
+			
+			// aapt resource value: 0x7f07002b
+			public const int btnEmail = 2131165227;
 			
 			// aapt resource value: 0x7f070026
 			public const int btnHybrid = 2131165222;
@@ -434,8 +434,11 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070028
 			public const int btnTerrain = 2131165224;
 			
-			// aapt resource value: 0x7f07002b
-			public const int btnWebsite = 2131165227;
+			// aapt resource value: 0x7f07002c
+			public const int btnWebsite = 2131165228;
+			
+			// aapt resource value: 0x7f070011
+			public const int btnbutton1 = 2131165201;
 			
 			// aapt resource value: 0x7f070013
 			public const int button2 = 2131165203;
@@ -512,8 +515,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070005
 			public const int satellite = 2131165189;
 			
-			// aapt resource value: 0x7f07002d
-			public const int spinner = 2131165229;
+			// aapt resource value: 0x7f07002e
+			public const int spinner = 2131165230;
 			
 			// aapt resource value: 0x7f07000a
 			public const int standard = 2131165194;
@@ -524,8 +527,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000f
 			public const int textView1 = 2131165199;
 			
-			// aapt resource value: 0x7f070011
-			public const int textView2 = 2131165201;
+			// aapt resource value: 0x7f070029
+			public const int textView2 = 2131165225;
 			
 			// aapt resource value: 0x7f070022
 			public const int usageBtn = 2131165218;
@@ -566,19 +569,16 @@ namespace iRecover.Droid
 			public const int Contactus = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int FirstView = 2130903041;
+			public const int HomeScreenView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int HomeScreenView = 2130903042;
+			public const int ProviderInfo = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ProviderInfo = 2130903043;
+			public const int SearchProvider = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SearchProvider = 2130903044;
-			
-			// aapt resource value: 0x7f030005
-			public const int SplashScreen = 2130903045;
+			public const int SplashScreen = 2130903044;
 			
 			static Layout()
 			{
