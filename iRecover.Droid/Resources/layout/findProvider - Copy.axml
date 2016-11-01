@@ -20,7 +20,7 @@
             p1:layout_height="98.5dp"
             p1:id="@+id/linearLayout6" />
         <TextView
-            p1:text="iRecover"
+            p1:text="Provider"
             p1:textAppearance="?android:attr/textAppearanceLarge"
             p1:layout_width="92.0dp"
             p1:layout_height="wrap_content"
@@ -39,7 +39,6 @@
             p1:src="@android:drawable/ic_menu_gallery"
             p1:layout_width="match_parent"
             p1:layout_height="103.0dp"
-            p1:alpha="0.3"
             p1:id="@+id/mainImage" />
     </LinearLayout>
     <LinearLayout
@@ -57,18 +56,18 @@
             p1:layout_height="96.0dp"
             p1:id="@+id/linearLayout4">
             <Button
-                p1:text="Contact Us"
+                p1:text="Call"
                 p1:layout_width="190.0dp"
                 p1:layout_height="match_parent"
-                p1:id="@+id/contactBtn"
+                p1:id="@+id/button1"
                 p1:backgroundTint="#ff00695c"
                 p1:textStyle="bold"
                 p1:textColor="#ffffffff" />
             <Button
-                p1:text="Make a Claim"
+                p1:text="Email Provider"
                 p1:layout_width="190.0dp"
                 p1:layout_height="match_parent"
-                p1:id="@+id/claimBtn"
+                p1:id="@+id/button2"
                 p1:backgroundTint="#ff00695c"
                 p1:textStyle="bold"
                 p1:textColor="#ffffffff" />
@@ -81,18 +80,18 @@
             p1:layout_height="86.5dp"
             p1:id="@+id/linearLayout5">
             <Button
-                p1:text="My Usage"
+                p1:text="Visit Website"
                 p1:layout_width="190.0dp"
                 p1:layout_height="match_parent"
-                p1:id="@+id/usageBtn"
+                p1:id="@+id/button3"
                 p1:backgroundTint="#ff00695c"
                 p1:textStyle="bold"
                 p1:textColor="#ffffffff" />
             <Button
-                p1:text="History"
+                p1:text="Directions"
                 p1:layout_width="190.0dp"
                 p1:layout_height="match_parent"
-                p1:id="@+id/HistoryBtn"
+                p1:id="@+id/button4"
                 p1:backgroundTint="#ff00695c"
                 p1:textStyle="bold"
                 p1:textColor="#ffffffff" />
