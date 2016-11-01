@@ -9,7 +9,7 @@ package com.google.android.gms.base;
 
 public final class R {
     public static final class array {
-        public static int dropdown_arrays=0x7f090000;
+        public static int physio_arrays=0x7f090000;
     }
     public static final class attr {
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -363,6 +363,14 @@ containing a value of this type.
         public static int adjust_height=0x7f070007;
         public static int adjust_width=0x7f070008;
         public static int auto=0x7f07000c;
+        public static int btnCall=0x7f070029;
+        public static int btnDirections=0x7f07002c;
+        public static int btnEmail=0x7f07002a;
+        public static int btnHybrid=0x7f070026;
+        public static int btnNormal=0x7f070025;
+        public static int btnSatellite=0x7f070027;
+        public static int btnTerrain=0x7f070028;
+        public static int btnWebsite=0x7f07002b;
         public static int button2=0x7f070013;
         public static int button3=0x7f070015;
         public static int button4=0x7f070017;
@@ -388,7 +396,7 @@ containing a value of this type.
         public static int none=0x7f070003;
         public static int normal=0x7f070004;
         public static int satellite=0x7f070005;
-        public static int spinner=0x7f070025;
+        public static int spinner=0x7f07002d;
         public static int standard=0x7f07000a;
         public static int terrain=0x7f070006;
         public static int textView1=0x7f07000f;
@@ -516,6 +524,7 @@ containing a value of this type.
          */
         public static int common_signin_button_text_long=0x7f04001e;
         public static int google_maps_key=0x7f040021;
+        public static int physio_prompt=0x7f040022;
     }
     public static final class style {
         public static int Theme_Splash=0x7f080000;
