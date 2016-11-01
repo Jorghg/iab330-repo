@@ -25,5 +25,6 @@ C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\MvvmCross.Cor
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\MvvmCross.Localization.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\MvvmCross.Platform.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\bin\Debug\SQLite.Net.dll
+C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.csprojResolveAssemblyReference.cache
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.dll
 C:\Users\gramstad\Source\Repos\iab330-repo\iRecover.Core\obj\Debug\iRecover.Core.pdb
