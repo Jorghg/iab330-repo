@@ -52,44 +52,95 @@ namespace iRecover.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010006
-			public const int MvxBind = 2130771974;
+			// aapt resource value: 0x7f010017
+			public const int MvxBind = 2130771991;
 			
-			// aapt resource value: 0x7f01000a
-			public const int MvxDropDownItemTemplate = 2130771978;
+			// aapt resource value: 0x7f01001b
+			public const int MvxDropDownItemTemplate = 2130771995;
 			
-			// aapt resource value: 0x7f01000b
-			public const int MvxGroupItemTemplate = 2130771979;
+			// aapt resource value: 0x7f01001c
+			public const int MvxGroupItemTemplate = 2130771996;
 			
-			// aapt resource value: 0x7f010009
-			public const int MvxItemTemplate = 2130771977;
+			// aapt resource value: 0x7f01001a
+			public const int MvxItemTemplate = 2130771994;
 			
-			// aapt resource value: 0x7f010007
-			public const int MvxLang = 2130771975;
+			// aapt resource value: 0x7f010018
+			public const int MvxLang = 2130771992;
 			
-			// aapt resource value: 0x7f01000c
-			public const int MvxSource = 2130771980;
+			// aapt resource value: 0x7f01001d
+			public const int MvxSource = 2130771997;
 			
-			// aapt resource value: 0x7f010008
-			public const int MvxTemplate = 2130771976;
+			// aapt resource value: 0x7f010019
+			public const int MvxTemplate = 2130771993;
 			
-			// aapt resource value: 0x7f010003
-			public const int buttonSize = 2130771971;
+			// aapt resource value: 0x7f010010
+			public const int ambientEnabled = 2130771984;
 			
-			// aapt resource value: 0x7f010002
-			public const int circleCrop = 2130771970;
-			
-			// aapt resource value: 0x7f010004
-			public const int colorScheme = 2130771972;
+			// aapt resource value: 0x7f010014
+			public const int buttonSize = 2130771988;
 			
 			// aapt resource value: 0x7f010001
-			public const int imageAspectRatio = 2130771969;
+			public const int cameraBearing = 2130771969;
 			
-			// aapt resource value: 0x7f010000
-			public const int imageAspectRatioAdjust = 2130771968;
+			// aapt resource value: 0x7f010002
+			public const int cameraTargetLat = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cameraTargetLng = 2130771971;
+			
+			// aapt resource value: 0x7f010004
+			public const int cameraTilt = 2130771972;
 			
 			// aapt resource value: 0x7f010005
-			public const int scopeUris = 2130771973;
+			public const int cameraZoom = 2130771973;
+			
+			// aapt resource value: 0x7f010013
+			public const int circleCrop = 2130771987;
+			
+			// aapt resource value: 0x7f010015
+			public const int colorScheme = 2130771989;
+			
+			// aapt resource value: 0x7f010012
+			public const int imageAspectRatio = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public const int imageAspectRatioAdjust = 2130771985;
+			
+			// aapt resource value: 0x7f010006
+			public const int liteMode = 2130771974;
+			
+			// aapt resource value: 0x7f010000
+			public const int mapType = 2130771968;
+			
+			// aapt resource value: 0x7f010016
+			public const int scopeUris = 2130771990;
+			
+			// aapt resource value: 0x7f010007
+			public const int uiCompass = 2130771975;
+			
+			// aapt resource value: 0x7f01000f
+			public const int uiMapToolbar = 2130771983;
+			
+			// aapt resource value: 0x7f010008
+			public const int uiRotateGestures = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int uiScrollGestures = 2130771977;
+			
+			// aapt resource value: 0x7f01000a
+			public const int uiTiltGestures = 2130771978;
+			
+			// aapt resource value: 0x7f01000b
+			public const int uiZoomControls = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int uiZoomGestures = 2130771980;
+			
+			// aapt resource value: 0x7f01000d
+			public const int useViewLifecycle = 2130771981;
+			
+			// aapt resource value: 0x7f01000e
+			public const int zOrderOnTop = 2130771982;
 			
 			static Attribute()
 			{
@@ -328,8 +379,8 @@ namespace iRecover.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07001d
-			public const int HistoryBtn = 2131165213;
+			// aapt resource value: 0x7f070021
+			public const int HistoryBtn = 2131165217;
 			
 			// aapt resource value: 0x7f070000
 			public const int MvvmCrossTagId = 2131165184;
@@ -337,86 +388,101 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070001
 			public const int MvxBindingTagUnique = 2131165185;
 			
-			// aapt resource value: 0x7f070002
-			public const int adjust_height = 2131165186;
-			
-			// aapt resource value: 0x7f070003
-			public const int adjust_width = 2131165187;
+			// aapt resource value: 0x7f070007
+			public const int adjust_height = 2131165191;
 			
 			// aapt resource value: 0x7f070008
-			public const int auto = 2131165192;
-			
-			// aapt resource value: 0x7f07000d
-			public const int btnbutton1 = 2131165197;
-			
-			// aapt resource value: 0x7f07000f
-			public const int button2 = 2131165199;
-			
-			// aapt resource value: 0x7f070011
-			public const int button3 = 2131165201;
-			
-			// aapt resource value: 0x7f07001a
-			public const int claimBtn = 2131165210;
-			
-			// aapt resource value: 0x7f070019
-			public const int contactBtn = 2131165209;
-			
-			// aapt resource value: 0x7f070009
-			public const int dark = 2131165193;
+			public const int adjust_width = 2131165192;
 			
 			// aapt resource value: 0x7f07000c
-			public const int gridLayout1 = 2131165196;
+			public const int auto = 2131165196;
 			
-			// aapt resource value: 0x7f07000e
-			public const int gridLayout2 = 2131165198;
-			
-			// aapt resource value: 0x7f070010
-			public const int gridLayout3 = 2131165200;
-			
-			// aapt resource value: 0x7f070005
-			public const int icon_only = 2131165189;
-			
-			// aapt resource value: 0x7f07000a
-			public const int light = 2131165194;
-			
-			// aapt resource value: 0x7f070012
-			public const int linearLayout1 = 2131165202;
+			// aapt resource value: 0x7f070011
+			public const int button1 = 2131165201;
 			
 			// aapt resource value: 0x7f070013
-			public const int linearLayout2 = 2131165203;
-			
-			// aapt resource value: 0x7f070017
-			public const int linearLayout3 = 2131165207;
-			
-			// aapt resource value: 0x7f070018
-			public const int linearLayout4 = 2131165208;
-			
-			// aapt resource value: 0x7f07001b
-			public const int linearLayout5 = 2131165211;
-			
-			// aapt resource value: 0x7f070014
-			public const int linearLayout6 = 2131165204;
+			public const int button2 = 2131165203;
 			
 			// aapt resource value: 0x7f070015
-			public const int linearLayout7 = 2131165205;
+			public const int button3 = 2131165205;
+			
+			// aapt resource value: 0x7f07001e
+			public const int claimBtn = 2131165214;
+			
+			// aapt resource value: 0x7f07001d
+			public const int contactBtn = 2131165213;
+			
+			// aapt resource value: 0x7f07000d
+			public const int dark = 2131165197;
+			
+			// aapt resource value: 0x7f070010
+			public const int gridLayout1 = 2131165200;
+			
+			// aapt resource value: 0x7f070012
+			public const int gridLayout2 = 2131165202;
+			
+			// aapt resource value: 0x7f070014
+			public const int gridLayout3 = 2131165204;
+			
+			// aapt resource value: 0x7f070002
+			public const int hybrid = 2131165186;
+			
+			// aapt resource value: 0x7f070009
+			public const int icon_only = 2131165193;
+			
+			// aapt resource value: 0x7f070022
+			public const int imageView1 = 2131165218;
+			
+			// aapt resource value: 0x7f07000e
+			public const int light = 2131165198;
 			
 			// aapt resource value: 0x7f070016
-			public const int mainImage = 2131165206;
+			public const int linearLayout1 = 2131165206;
 			
-			// aapt resource value: 0x7f070004
-			public const int none = 2131165188;
+			// aapt resource value: 0x7f070017
+			public const int linearLayout2 = 2131165207;
 			
-			// aapt resource value: 0x7f070006
-			public const int standard = 2131165190;
-			
-			// aapt resource value: 0x7f07000b
-			public const int textView1 = 2131165195;
+			// aapt resource value: 0x7f07001b
+			public const int linearLayout3 = 2131165211;
 			
 			// aapt resource value: 0x7f07001c
-			public const int usageBtn = 2131165212;
+			public const int linearLayout4 = 2131165212;
 			
-			// aapt resource value: 0x7f070007
-			public const int wide = 2131165191;
+			// aapt resource value: 0x7f07001f
+			public const int linearLayout5 = 2131165215;
+			
+			// aapt resource value: 0x7f070018
+			public const int linearLayout6 = 2131165208;
+			
+			// aapt resource value: 0x7f070019
+			public const int linearLayout7 = 2131165209;
+			
+			// aapt resource value: 0x7f07001a
+			public const int mainImage = 2131165210;
+			
+			// aapt resource value: 0x7f070003
+			public const int none = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int normal = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int satellite = 2131165189;
+			
+			// aapt resource value: 0x7f07000a
+			public const int standard = 2131165194;
+			
+			// aapt resource value: 0x7f070006
+			public const int terrain = 2131165190;
+			
+			// aapt resource value: 0x7f07000f
+			public const int textView1 = 2131165199;
+			
+			// aapt resource value: 0x7f070020
+			public const int usageBtn = 2131165216;
+			
+			// aapt resource value: 0x7f07000b
+			public const int wide = 2131165195;
 			
 			static Id()
 			{
@@ -454,7 +520,13 @@ namespace iRecover.Droid
 			public const int HomeScreenView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int MakeClaim = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SplashScreen = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Submit = 2130903044;
 			
 			static Layout()
 			{
@@ -598,9 +670,9 @@ namespace iRecover.Droid
 		{
 			
 			public static int[] LoadingImageView = new int[] {
-					2130771968,
-					2130771969,
-					2130771970};
+					2130771985,
+					2130771986,
+					2130771987};
 			
 			// aapt resource value: 2
 			public const int LoadingImageView_circleCrop = 2;
@@ -611,9 +683,79 @@ namespace iRecover.Droid
 			// aapt resource value: 0
 			public const int LoadingImageView_imageAspectRatioAdjust = 0;
 			
-			public static int[] MvxBinding = new int[] {
+			public static int[] MapAttrs = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
 					2130771974,
-					2130771975};
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984};
+			
+			// aapt resource value: 16
+			public const int MapAttrs_ambientEnabled = 16;
+			
+			// aapt resource value: 1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0
+			public const int MapAttrs_mapType = 0;
+			
+			// aapt resource value: 7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 15
+			public const int MapAttrs_uiMapToolbar = 15;
+			
+			// aapt resource value: 8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 10
+			public const int MapAttrs_uiTiltGestures = 10;
+			
+			// aapt resource value: 11
+			public const int MapAttrs_uiZoomControls = 11;
+			
+			// aapt resource value: 12
+			public const int MapAttrs_uiZoomGestures = 12;
+			
+			// aapt resource value: 13
+			public const int MapAttrs_useViewLifecycle = 13;
+			
+			// aapt resource value: 14
+			public const int MapAttrs_zOrderOnTop = 14;
+			
+			public static int[] MvxBinding = new int[] {
+					2130771991,
+					2130771992};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -622,26 +764,26 @@ namespace iRecover.Droid
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130771976};
+					2130771993};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130771979};
+					2130771996};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130771980};
+					2130771997};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130771977,
-					2130771978};
+					2130771994,
+					2130771995};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
@@ -650,9 +792,9 @@ namespace iRecover.Droid
 			public const int MvxListView_MvxItemTemplate = 0;
 			
 			public static int[] SignInButton = new int[] {
-					2130771971,
-					2130771972,
-					2130771973};
+					2130771988,
+					2130771989,
+					2130771990};
 			
 			// aapt resource value: 0
 			public const int SignInButton_buttonSize = 0;
