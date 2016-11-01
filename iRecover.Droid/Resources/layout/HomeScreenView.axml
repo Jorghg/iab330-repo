@@ -4,7 +4,7 @@
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1"
-    p1:background="#ff74e0c5">
+    p1:background="#ff5dc1aa">
     <LinearLayout
         p1:orientation="vertical"
         p1:minWidth="25px"
@@ -39,6 +39,7 @@
             p1:src="@android:drawable/ic_menu_gallery"
             p1:layout_width="match_parent"
             p1:layout_height="103.0dp"
+            p1:alpha="0.3"
             p1:id="@+id/mainImage" />
     </LinearLayout>
     <LinearLayout
