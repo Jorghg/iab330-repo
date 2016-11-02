@@ -107,12 +107,12 @@
         android:textStyle="bold"
         android:layout_gravity="center"
         android:textColor="#ffffffff" />
-  <GridLayout
-      android:minWidth="25px"
-      android:minHeight="25px"
-      android:layout_width="match_parent"
-      android:layout_height="5dp"
-      android:id="@+id/gridLayout3" />
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/gridLayout3" />
     <Button
         android:text="Email"
         android:layout_width="200.0dp"

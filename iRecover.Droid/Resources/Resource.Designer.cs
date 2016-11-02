@@ -413,29 +413,32 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07000c
 			public const int auto = 2131165196;
 			
-			// aapt resource value: 0x7f070029
-			public const int btnCall = 2131165225;
-			
-			// aapt resource value: 0x7f07002c
-			public const int btnDirections = 2131165228;
-			
 			// aapt resource value: 0x7f07002a
-			public const int btnEmail = 2131165226;
+			public const int btnCall = 2131165226;
 			
-			// aapt resource value: 0x7f070026
-			public const int btnHybrid = 2131165222;
-			
-			// aapt resource value: 0x7f070025
-			public const int btnNormal = 2131165221;
-			
-			// aapt resource value: 0x7f070027
-			public const int btnSatellite = 2131165223;
-			
-			// aapt resource value: 0x7f070028
-			public const int btnTerrain = 2131165224;
+			// aapt resource value: 0x7f07002d
+			public const int btnDirections = 2131165229;
 			
 			// aapt resource value: 0x7f07002b
-			public const int btnWebsite = 2131165227;
+			public const int btnEmail = 2131165227;
+			
+			// aapt resource value: 0x7f070027
+			public const int btnHybrid = 2131165223;
+			
+			// aapt resource value: 0x7f070026
+			public const int btnNormal = 2131165222;
+			
+			// aapt resource value: 0x7f070028
+			public const int btnSatellite = 2131165224;
+			
+			// aapt resource value: 0x7f070029
+			public const int btnTerrain = 2131165225;
+			
+			// aapt resource value: 0x7f07002c
+			public const int btnWebsite = 2131165228;
+			
+			// aapt resource value: 0x7f070024
+			public const int button1 = 2131165220;
 			
 			// aapt resource value: 0x7f070013
 			public const int button2 = 2131165203;
@@ -500,8 +503,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f07001c
 			public const int mainImage = 2131165212;
 			
-			// aapt resource value: 0x7f070024
-			public const int map = 2131165220;
+			// aapt resource value: 0x7f070025
+			public const int map = 2131165221;
 			
 			// aapt resource value: 0x7f070003
 			public const int none = 2131165187;
@@ -512,8 +515,8 @@ namespace iRecover.Droid
 			// aapt resource value: 0x7f070005
 			public const int satellite = 2131165189;
 			
-			// aapt resource value: 0x7f07002d
-			public const int spinner = 2131165229;
+			// aapt resource value: 0x7f07002e
+			public const int spinner = 2131165230;
 			
 			// aapt resource value: 0x7f07000a
 			public const int standard = 2131165194;
@@ -569,13 +572,16 @@ namespace iRecover.Droid
 			public const int HomeScreenView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ProviderInfo = 2130903042;
+			public const int MakeClaim = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int SearchProvider = 2130903043;
+			public const int ProviderInfo = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SplashScreen = 2130903044;
+			public const int SearchProvider = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SplashScreen = 2130903045;
 			
 			static Layout()
 			{

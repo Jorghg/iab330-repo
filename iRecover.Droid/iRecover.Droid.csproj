@@ -155,6 +155,7 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\ContactUsPageView.cs" />
     <Compile Include="Views\HomeScreenView.cs" />
+    <Compile Include="Views\MakeClaimPage.cs" />
     <Compile Include="Views\SearchProviderView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +175,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
+    <AndroidResource Include="Resources\layout\MakeClaim.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml">

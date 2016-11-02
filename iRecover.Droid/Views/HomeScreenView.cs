@@ -43,9 +43,9 @@ namespace iRecover.Droid.Views
 			//Toast.MakeText(this, ContactkUs.Text, ToastLength.Short).Show();
 			claimbtn.Click += (object sender, System.EventArgs e) =>
 			{
-                //Toast.MakeText(this, "Email us Function allws users to send an email to the provider", ToastLength.Short).Show();
+                //Toast.MakeText(this, "claim button pressed", ToastLength.Short).Show();
                 //ContactUsActivity cta = new ContactUsActivity( savedInstanceState);
-                makeaclaim();
+                MakeAClaim();
 			};
 
             Button usagebtn = FindViewById<Button>(Resource.Id.usageBtn);
@@ -106,9 +106,9 @@ namespace iRecover.Droid.Views
                 SearchProviderPage();
             };
         }
-        private void makeaclaim()
+        private void MakeAClaim()
 		{
-			SetContentView(Resource.Layout.Contactus);
+			SetContentView(Resource.Layout.MakeClaim);
 			// Get our button from the layout resource,
 			// and attach an event to it
 
@@ -165,14 +165,27 @@ var spinner = FindViewById<Spinner>(Resource.Id.spinner);
             Button VisitWebsite = FindViewById<Button>(Resource.Id.btnWebsite);
             Button NavigateProvider = FindViewById<Button>(Resource.Id.btnDirections);
 
+            CallProvider.Click += (object sender, System.EventArgs e) =>
+            {
+                // make a call to the provider 
+                Android.Net.Uri number = Android.Net.Uri.Parse("tel:" + "1800775020");
+                Intent dialintent = new Intent(Intent.ActionView, number);
+                StartActivity(dialintent);
+            };
+
             VisitWebsite.Click += (object sender, System.EventArgs e) =>
             {
                 var uri = Android.Net.Uri.Parse("http://www.suncorp.com.au/");
                 var intent = new Intent(Intent.ActionView, uri);
                 StartActivity(intent);
             };
-            
 
+            NavigateProvider.Click += (object sender, System.EventArgs e) =>
+            {
+                var geoUri = Android.Net.Uri.Parse("geo:-27.4675634, 153.0244959");
+                var mapIntent = new Intent(Intent.ActionView, geoUri);
+                StartActivity(mapIntent);
+            };
 
             // GOOGLE MAPS
             btnNormal = FindViewById<Button>(Resource.Id.btnNormal);
